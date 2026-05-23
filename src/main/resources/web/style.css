@@ -1,0 +1,298 @@
+body {
+
+    background-color: #111827;
+
+    color: white;
+
+    font-family: Arial;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.container {
+
+    padding: 40px;
+}
+
+h1 {
+
+    margin-bottom: 40px;
+}
+
+.layout {
+
+    display: flex;
+
+    gap: 40px;
+
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+}
+
+.leftPanel {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.bodyMap {
+
+    width: 220px;
+
+    background-color: #1f2937;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+
+    box-shadow:
+            0 0 20px rgba(0,255,180,0.15);
+}
+
+.bodyPart {
+
+    transition: 0.3s;
+}
+
+#head {
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    background-color: #374151;
+}
+
+.arms {
+
+    width: 140px;
+
+    height: 30px;
+
+    border-radius: 20px;
+
+    background-color: #374151;
+}
+
+#spine {
+
+    width: 40px;
+    height: 180px;
+
+    border-radius: 20px;
+
+    background-color: #374151;
+}
+
+#pelvis {
+
+    width: 100px;
+    height: 50px;
+
+    border-radius: 20px;
+
+    background-color: #374151;
+}
+
+#legs {
+
+    width: 70px;
+    height: 180px;
+
+    border-radius: 20px;
+
+    background-color: #374151;
+}
+
+.controls {
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    box-shadow:
+            0 0 20px rgba(0,255,180,0.15);
+}
+
+.controls h2 {
+
+    margin-top: 0;
+}
+
+.controls label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+}
+
+.controls input {
+
+    width: 100%;
+}
+
+.metricsCard {
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    margin-bottom: 30px;
+
+    box-shadow:
+            0 0 20px rgba(0,255,180,0.2);
+}
+
+.card {
+
+    background-color: #1f2937;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+
+    transform: scale(1.01);
+}
+
+.orange {
+
+    color: orange;
+
+    font-weight: bold;
+}
+
+.blue {
+
+    color: deepskyblue;
+
+    font-weight: bold;
+}
+
+.red {
+
+    color: red;
+
+    font-weight: bold;
+}
+
+.redGlow {
+
+    border-left: 6px solid red;
+
+    box-shadow:
+            0 0 20px rgba(255,0,0,0.4);
+}
+
+.orangeGlow {
+
+    border-left: 6px solid orange;
+
+    box-shadow:
+            0 0 20px rgba(255,165,0,0.4);
+}
+
+.blueGlow {
+
+    border-left: 6px solid deepskyblue;
+
+    box-shadow:
+            0 0 20px rgba(0,191,255,0.4);
+}
+
+.modePanel {
+
+    margin-bottom: 30px;
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.modePanel button {
+
+    background-color: #1f2937;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    font-weight: bold;
+}
+
+.modePanel button:hover {
+
+    background-color: #374151;
+}
+
+#dashboard {
+
+    flex: 1;
+
+    min-width: 400px;
+
+    .bodyContainer {
+
+        transition: 0.4s;
+
+        transform-origin: center top;
+    }
+    .timelinePanel {
+
+        margin-bottom: 30px;
+
+        display: flex;
+
+        gap: 20px;
+    }
+
+    .timelinePanel button {
+
+        background-color: #374151;
+
+        color: white;
+
+        border: none;
+
+        padding: 10px 18px;
+
+        border-radius: 10px;
+
+        cursor: pointer;
+    }
+}

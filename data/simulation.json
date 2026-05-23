@@ -1,0 +1,25 @@
+[
+  {
+    "name": "SPINE",
+    "load": 95,
+    "compensation": 20
+  },
+
+  {
+    "name": "HEAD",
+    "load": 60,
+    "compensation": 25
+  },
+
+  {
+    "name": "PELVIS",
+    "load": 40,
+    "compensation": 15
+  },
+
+  {
+    "name": "LEGS",
+    "load": 55,
+    "compensation": 35
+  }
+]

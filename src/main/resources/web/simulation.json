@@ -1,0 +1,36 @@
+[
+  {
+    "id": "spine",
+    "label": "COLUMNA VERTEBRAL",
+    "load": 120,
+    "compensation": 10
+  },
+
+  {
+    "id": "head",
+    "label": "CABEZA",
+    "load": 60,
+    "compensation": 25
+  },
+
+  {
+    "id": "pelvis",
+    "label": "PELVIS",
+    "load": 40,
+    "compensation": 15
+  },
+
+  {
+    "id": "legs",
+    "label": "PIERNAS",
+    "load": 55,
+    "compensation": 35
+  },
+
+  {
+    "id": "arms",
+    "label": "BRAZOS",
+    "load": 45,
+    "compensation": 20
+  }
+]
