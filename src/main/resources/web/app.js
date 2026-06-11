@@ -1,4 +1,41 @@
-let simulationData = [];
+let simulationData = [
+
+    {
+        id: "spine",
+        label: "COLUMNA VERTEBRAL",
+        load: 120,
+        compensation: 10
+    },
+
+    {
+        id: "head",
+        label: "CABEZA",
+        load: 60,
+        compensation: 25
+    },
+
+    {
+        id: "pelvis",
+        label: "PELVIS",
+        load: 40,
+        compensation: 15
+    },
+
+    {
+        id: "legs",
+        label: "PIERNAS",
+        load: 55,
+        compensation: 35
+    },
+
+    {
+        id: "arms",
+        label: "BRAZOS",
+        load: 45,
+        compensation: 20
+    }
+
+];
 
 let simulationMode =
     "MANUAL";
@@ -15,17 +52,12 @@ let timelineRunning =
 
 let motionTime = 0;
 
-async function loadSimulation() {
-
-    const response =
-        await fetch("simulation.json");
-
-    simulationData =
-        await response.json();
+function loadSimulation() {
 
     generateControls();
 
     redrawDashboard();
+
 }
 
 function generateControls() {
