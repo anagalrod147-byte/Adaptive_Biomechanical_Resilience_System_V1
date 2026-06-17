@@ -68,7 +68,7 @@ ABRS includes a timeline simulation layer capable of:
 
 # Architecture
 
-Adaptative Biomechanical Resilience System (ABRS)
+Adaptive Biomechanical Resilience System (ABRS)
 <img width="1891" height="935" alt="image" src="https://github.com/user-attachments/assets/63acc01d-ec7f-4a15-87bd-d2277c4e2a30" />
 
 
@@ -98,42 +98,57 @@ Future Development
 
 ABRS is intended as an experimental framework for studying:
 
-biomechanical resilience
-adaptive systems
-compensation behavior
-procedural simulation
-distributed structural recovery
-emergent stabilization strategies
+- Biomechanical resilience
+- Adaptive systems
+- Compensation behavior
+- Procedural simulation
+- Distributed structural recovery
+- Emergent stabilization strategies
 
 Future research may include:
 
-cognitive persistence systems
-adaptive learning models
-predictive behavior engines
-advanced telemetry
-3D simulation integration
-robotic resilience systems
+- Cognitive persistence systems
+- Adaptive learning models
+- Predictive behavior engines
+- Advanced telemetry
+- 3D simulation
+- Robotic resilience systems
 
-Current Development Status
-Implemented
-Manual simulation
-Automatic compensation
-Procedural motion
-Timeline system
-Reactive visualization
-Adaptive strategies
-Interactive control layer
-In Progress
-Data persistence
-CSV telemetry export
-Documentation expansion
-Predictive behavior integration
+### Current Development Status
 
-Purpose
+#### Implemented
+
+- Manual simulation
+- Automatic compensation
+- Procedural motion
+- Timeline system
+- Reactive visualization
+- Adaptive strategies
+- Interactive control layer
+
+#### In Progress
+
+- Data persistence
+- CSV telemetry export
+- Documentation expansion
+- Predictive behavior integration
+
+  ### Running the demo
+
+Open:
+
+`index.html`
+
+in any modern web browser.
+
+No installation or local server required.
+
+
+## Purpose
 
 This project was developed as an experimental platform for exploring how adaptive compensation mechanisms can preserve operational stability in degraded biomechanical systems.
 
-Author
+## Autor
 
 Ana Luisa Galindo Rodriguez
 
