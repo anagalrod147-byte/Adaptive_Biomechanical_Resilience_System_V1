@@ -68,49 +68,33 @@ ABRS includes a timeline simulation layer capable of:
 
 # Architecture
 
-```text
-simulation.json
-        ↓
-stress engine
-        ↓
-adaptive compensation layer
-        ↓
-strategy engine
-        ↓
-procedural motion system
-        ↓
-interactive visualization
+Adaptative Biomechanical Resilience System (ABRS)
+<img width="1891" height="935" alt="image" src="https://github.com/user-attachments/assets/63acc01d-ec7f-4a15-87bd-d2277c4e2a30" />
 
-Technologies
-Backend
-Java
-Gradle
-Frontend
-HTML
-CSS
-JavaScript
-Version Control
-Git
-GitHub
 
-Project Structure
-src/
- └── main/
-      ├── java/
-      │    ├── app/
-      │    ├── model/
-      │    ├── prediction/
-      │    ├── simulation/
-      │    └── visualization/
-      │
-      └── resources/
-           └── web/
-                ├── index.html
-                ├── style.css
-                ├── app.js
-                └── simulation.json
+<img width="211" height="211" alt="Modelo_de_datos" src="https://github.com/user-attachments/assets/59ad56b2-a0f8-4490-98a0-d1325c485938" />
 
-Research Direction
+The ABRS simulation system uses a data stream to represent the body's compensation in response to degradation. It considers factors such as workload, stress, and risk level.
+
+
+<img width="211" height="471" alt="backend" src="https://github.com/user-attachments/assets/d3a2ab67-9673-4380-bff5-e0dd033c7755" />
+
+
+The backend architecture simulates data loading in the biomechanical model, including compensation, stress, and load risk. These can be visualized using a heat map.
+
+
+<img width="201" height="491" alt="frontend" src="https://github.com/user-attachments/assets/a91072f9-b954-4a64-9177-3fc4584fb3ca" />
+
+The front-end architecture allows for HTML visualization. Similarly, app.js was used to generate the timeline and the motion engine.
+
+
+<img width="201" height="491" alt="frontend" src="https://github.com/user-attachments/assets/9165b604-7bda-4301-a199-ddff378f07c8" />
+
+The data flow represents the process the body performs in response to the applied load, the compensation and redistribution process, as well as stress calculation, motion layer, and visual update.
+
+
+
+Future Development
 
 ABRS is intended as an experimental framework for studying:
 
